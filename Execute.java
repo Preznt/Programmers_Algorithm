@@ -3,7 +3,8 @@
  */
 public class Execute {
     public static void main(String[] args) {
-        AdditionFractions additionFractions = new AdditionFractions();
-        additionFractions.solution(4,4,4,4);
+        DoubleArray doubleArray = new DoubleArray();
+        int[] array = {4,-99, 34,-1};
+        doubleArray.solution(array);
     }
 }
