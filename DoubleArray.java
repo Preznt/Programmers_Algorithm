@@ -6,9 +6,7 @@ import java.util.Arrays;
  */
 public class DoubleArray {
     public int[] solution(int[] numbers) {
-        int[] answer = Arrays.stream(numbers).map(number -> number * 2).toArray();
+        return Arrays.stream(numbers).map(number -> number * 2).toArray();
 
-
-        return answer;
     }
 }
