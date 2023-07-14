@@ -3,8 +3,8 @@
  */
 public class Execute {
     public static void main(String[] args) {
-        DoubleArray doubleArray = new DoubleArray();
-        int[] array = {4,-99, 34,-1};
-        doubleArray.solution(array);
+       MiddleArray middleArray = new MiddleArray();
+       int[] array = {7,34,1, 10, 11};
+       middleArray.solution(array);
     }
 }
