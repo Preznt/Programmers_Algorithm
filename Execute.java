@@ -3,8 +3,8 @@
  */
 public class Execute {
     public static void main(String[] args) {
-       MiddleArray middleArray = new MiddleArray();
-       int[] array = {7,34,1, 10, 11};
-       middleArray.solution(array);
+       FrequencyArray frequencyArray = new FrequencyArray();
+       int[] array = {7,11,13,1,1,1,2,2,2,3,3};
+       frequencyArray.solution(array);
     }
 }
