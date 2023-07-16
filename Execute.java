@@ -4,7 +4,7 @@
 public class Execute {
     public static void main(String[] args) {
        FrequencyArray frequencyArray = new FrequencyArray();
-       int[] array = {7,11,13,1,1,1,2,2,2,3,3};
-       frequencyArray.solution(array);
+       int[] array = {7,50,1,1,1};
+       frequencyArray.anotherSolution(array);
     }
 }
