@@ -3,8 +3,7 @@
  */
 public class Execute {
     public static void main(String[] args) {
-       FrequencyArray frequencyArray = new FrequencyArray();
-       int[] array = {7,50,1,1,1};
-       frequencyArray.anotherSolution(array);
+       OddArray oddArray = new OddArray();
+       oddArray.solution(7);
     }
 }
