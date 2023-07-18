@@ -3,7 +3,7 @@
  */
 public class Execute {
     public static void main(String[] args) {
-       OddArray oddArray = new OddArray();
-       oddArray.solution(7);
+     DividePizza2 dividePizza2 = new DividePizza2();
+     dividePizza2.anotherSolution(8);
     }
 }
