@@ -3,7 +3,7 @@
  */
 public class Execute {
     public static void main(String[] args) {
-     DividePizza2 dividePizza2 = new DividePizza2();
-     dividePizza2.solution(8);
+     DividePizza3 dividePizza3 = new DividePizza3();
+     dividePizza3.wrongSolution(10, 5 );
     }
 }
