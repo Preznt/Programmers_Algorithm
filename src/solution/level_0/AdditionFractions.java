@@ -1,3 +1,4 @@
+package solution.level_0;
 
 /**
  * 7/11 분수의 덧셈

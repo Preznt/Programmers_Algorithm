@@ -1,3 +1,5 @@
+import solution.level_0.DividePizza3;
+
 /**
  * 실행을 위한 클래스
  */
