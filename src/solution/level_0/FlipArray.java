@@ -10,7 +10,7 @@ public class FlipArray {
         int[] answer = new int[num_list.length];
 
         /*
-        for(int i = num_list.length ; i > 0 ; i--){
+        for(int i = num_list.l기ength ; i > 0 ; i--){
             answer[num_list.length - i] = num_list[i -1];
         };
         */
