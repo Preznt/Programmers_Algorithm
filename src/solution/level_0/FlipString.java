@@ -16,5 +16,7 @@ public class FlipString {
         return answer;
     }
 
-    
+    public String anotherSolution(String myString) {
+        return new StringBuilder(myString).reverse().toString();
+    }
 }
