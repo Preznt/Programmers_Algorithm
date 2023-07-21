@@ -1,7 +1,6 @@
 package solution.level_0;
 
 import java.util.Scanner;
-
 /**
  * "*"로 직각삼각형 출력하기
  * "*"의 높이와 너비를 1이라고 했을 때, "*"을 이용해 직각 이등변 삼각형을 그리려고합니다.
