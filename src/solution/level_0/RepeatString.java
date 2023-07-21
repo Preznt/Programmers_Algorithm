@@ -23,6 +23,28 @@ public class RepeatString {
         return answer;
     }
 
-    // String과 char의 차이점
+    public String anotherSolution(String my_string, int n){
+        char[] arr = my_string.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for(char c : arr){
+            for(int i = 0; i < n ; i++) {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
 
+    // String과 char의 차이점
+    // char 같은 경우는 내용물이 1개의 문자로 제한되는 반면에 String은 그런 제한이 없이 문자를 담을 수 있다.
+    // 내용물의 차이는 char는 해당 변수 안에 값을 직접적으로 가지고 있고 String은 클래스타입의 변수이기에 임의로 만들어진 값이 들어있는 위치의 좌표를 내용물로 가진다.
+
+    // String, StringBuilder, StringBuffer
+    // 모두 문자열을 저장하고, 관리하는 클래스
+    // 아주 기본적인 차이는 String은 immutable(불변), 나머지는 mutable(변함)에 있다.
+    // String 객체는 한번 생성되면 할당된 메모리 공간이 변하지 않는다.
+    //
+    // StringBuilder, StringBuffer는 문자열 연산 등으로 기존 객체의 공간이 부족하게 되는 경우,기존의 버퍼 크기를 늘리며 유연하게 동작한다.
+    // 두 클래스의 차이점은 바로 동기화 여부이다.
+    // StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티스레드 환경에서도 동기화를 지원
+    // 반면, StringBuilder는 동기화를 보장하지 않음.
 }
