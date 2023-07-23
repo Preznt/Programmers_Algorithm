@@ -5,7 +5,8 @@ import solution.level_0.*;
  */
 public class Execute {
     public static void main(String[] args) {
-        DeleteString deleteString = new DeleteString();
-        deleteString.solution("abcdefe", "e");
+       SliceArray sliceArray = new SliceArray();
+       int[] array = {1,4,5,7};
+       sliceArray.solution(array,1,3);
     }
 }
