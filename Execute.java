@@ -5,8 +5,7 @@ import solution.level_0.*;
  */
 public class Execute {
     public static void main(String[] args) {
-       SliceArray sliceArray = new SliceArray();
-       int[] array = {1,4,5,7};
-       sliceArray.solution(array,1,3);
+        ForeignAge foreignAge = new ForeignAge();
+        foreignAge.solution(23);
     }
 }
