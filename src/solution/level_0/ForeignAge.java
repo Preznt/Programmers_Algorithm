@@ -13,7 +13,7 @@ import java.util.stream.Stream;
  */
 public class ForeignAge {
     public String solution(int age) {
-
+        // age 숫자 하나씩 분리하기
         int[] arrNum = Stream.of(String.valueOf(age).split("")).mapToInt(Integer::parseInt).toArray();
 
         String[] nameArray = new String[arrNum.length];
@@ -21,9 +21,8 @@ public class ForeignAge {
             char name = (char)(arrNum[i] + 97);
             nameArray[i] = String.valueOf(name);
         }
+        // 배열 함치기
         String answer = String.join("",nameArray);
-        System.out.println(answer);
-
         return answer;
     }
 
