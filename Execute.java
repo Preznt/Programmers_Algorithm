@@ -1,4 +1,5 @@
 import solution.level_0.*;
+import solution.level_1.HarshadNumber;
 import solution.level_1.RemainderIs1;
 
 /**
@@ -6,7 +7,7 @@ import solution.level_1.RemainderIs1;
  */
 public class Execute {
     public static void main(String[] args) {
-        RemainderIs1 remainderIs1 = new RemainderIs1();
-        remainderIs1.solution( 102);
+        HarshadNumber harshadNumber = new HarshadNumber();
+        harshadNumber.solution(11);
     }
 }
