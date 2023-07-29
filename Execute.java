@@ -1,5 +1,6 @@
 import solution.level_0.*;
 import solution.level_1.HarshadNumber;
+import solution.level_1.Pockemon;
 import solution.level_1.RemainderIs1;
 import solution.level_1.SumBetweenInteger;
 
@@ -8,7 +9,8 @@ import solution.level_1.SumBetweenInteger;
  */
 public class Execute {
     public static void main(String[] args) {
-        SumBetweenInteger sumBetweenInteger = new SumBetweenInteger();
-        sumBetweenInteger.anotherSolution(99,-100);
+        Pockemon pockemon = new Pockemon();
+        int[] nums = {3,1,2,3};
+        pockemon.solution(nums);
     }
 }
